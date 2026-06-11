@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Absensi</title>
+
+<link rel="stylesheet" href="css/dashboard.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+<div class="bg"></div>
+
+<div class="sidebar">
+
+    <div class="logo">
+        <h2>Workshop</h2>
+    </div>
+
+    <ul>
+
+        <a href="dashboard.html">
+            <li>
+                <i class="fa-solid fa-chart-line"></i>
+                Dashboard
+            </li>
+        </a>
+
+        <a href="peserta.html">
+            <li>
+                <i class="fa-solid fa-users"></i>
+                Peserta
+            </li>
+        </a>
+
+        <a href="absensi.html">
+            <li class="active">
+                <i class="fa-solid fa-calendar-check"></i>
+                Absensi
+            </li>
+        </a>
+
+        <a href="sertifikat.html">
+            <li>
+                <i class="fa-solid fa-award"></i>
+                Sertifikat
+            </li>
+        </a>
+
+        <a href="index.html">
+            <li>
+                <i class="fa-solid fa-right-from-bracket"></i>
+                Logout
+            </li>
+        </a>
+
+    </ul>
+
+</div>
+
+<div class="main-content">
+
+    <div class="topbar">
+
+        <div class="title">
+            <h1>Data Absensi</h1>
+            <p>Status kehadiran peserta workshop</p>
+        </div>
+
+    </div>
+
+    <div class="table-box">
+
+        <table>
+
+            <tr>
+                <th>Nama</th>
+                <th>Workshop</th>
+                <th>Status</th>
+            </tr>
+
+            <tr>
+                <td>Nur Istikomah</td>
+                <td>Web Developer</td>
+                <td>
+                    <span class="success">Hadir</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Salsa</td>
+                <td>UI/UX</td>
+                <td>
+                    <span class="danger">Tidak Hadir</span>
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</div>
+
+</body>
+</html>

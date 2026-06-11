@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dashboard Workshop</title>
+
+<link rel="stylesheet" href="css/dashboard.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+<!-- BACKGROUND -->
+<div class="bg"></div>
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+
+    <div class="logo">
+        <h2>Workshop</h2>
+    </div>
+
+    <ul>
+
+        <a href="dashboard.html">
+            <li class="active">
+                <i class="fa-solid fa-chart-line"></i>
+                Dashboard
+            </li>
+        </a>
+
+        <a href="peserta.html">
+            <li>
+                <i class="fa-solid fa-users"></i>
+                Peserta
+            </li>
+        </a>
+
+        <a href="absensi.html">
+            <li>
+                <i class="fa-solid fa-calendar-check"></i>
+                Absensi
+            </li>
+        </a>
+
+        <a href="sertifikat.html">
+            <li>
+                <i class="fa-solid fa-award"></i>
+                Sertifikat
+            </li>
+        </a>
+
+        <a href="index.html">
+            <li>
+                <i class="fa-solid fa-right-from-bracket"></i>
+                Logout
+            </li>
+        </a>
+
+    </ul>
+
+</div>
+<!-- MAIN -->
+<div class="main-content">
+
+    <!-- TOPBAR -->
+    <div class="topbar">
+
+        <div class="title">
+
+            <h1>Dashboard Admin</h1>
+
+            <p>
+                Selamat datang kembali 
+            </p>
+
+        </div>
+
+        <div class="profile">
+
+            <img src="https://i.pravatar.cc/150?img=32">
+
+            <div>
+                <h3>Nur Istikomah</h3>
+                <span>Administrator</span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- CARDS -->
+    <div class="cards">
+
+        <div class="card">
+
+            <div>
+                <h3>Total Peserta</h3>
+                <h1>40</h1>
+            </div>
+
+            <i class="fa-solid fa-users"></i>
+
+        </div>
+
+        <div class="card">
+
+            <div>
+                <h3>Total Workshop</h3>
+                <h1>5</h1>
+            </div>
+
+            <i class="fa-solid fa-book-open"></i>
+
+        </div>
+
+        <div class="card">
+
+            <div>
+                <h3>Peserta Hadir</h3>
+                <h1>30</h1>
+            </div>
+
+            <i class="fa-solid fa-check"></i>
+
+        </div>
+
+    </div>
+
+    <!-- TABLE -->
+    <div class="table-box">
+
+        <div class="table-header">
+
+            <h2>Data Peserta Workshop</h2>
+
+            <button>
+                + Tambah Data
+            </button>
+
+        </div>
+
+        <table>
+
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>Workshop</th>
+                <th>Status</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>Nur Istikomah</td>
+                <td>Web Developer</td>
+                <td>
+                    <span class="success">
+                        Hadir
+                    </span>
+                </td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Andi</td>
+                <td>UI/UX</td>
+                <td>
+                    <span class="success">
+                        Hadir
+                    </span>
+                </td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Salsa</td>
+                <td>Cyber Security</td>
+                <td>
+                    <span class="danger">
+                        Tidak Hadir
+                    </span>
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</div>
+
+<script src="js/dashboard.js"></script>
+
+</body>
+</html>
